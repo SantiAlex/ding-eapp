@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    flex: 1;
+    background-color: #777;
+}
+.bottom-bar{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px;
+    /*border: 1px solid #ccc;*/
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #ccc;
+}
