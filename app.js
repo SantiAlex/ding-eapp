@@ -9,9 +9,9 @@ App({
   },
   onShow() {
     console.log('App Show');
-    dd.navigateTo({
-      url: '/page/test/test'
-    })
+    // dd.navigateTo({
+    //   url: '/page/test/test'
+    // })
   },
   onHide() {
     console.log('App Hide');

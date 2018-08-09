@@ -1,5 +1,9 @@
 require('@alipay/appx-compiler/lib/sjsEnvInit');
 require('./config$');
+require('../../node_modules/mini-ddui/es/steps/index');
+require('../../node_modules/mini-ddui/es/list/index');
+require('../../node_modules/mini-ddui/es/list/list-item/index');
+require('../../node_modules/dd-charts/es/f2/index');
 require('../../page/component/index');
 require('../../page/component/action-sheet/action-sheet');
 require('../../page/component/button/button');

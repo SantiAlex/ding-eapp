@@ -1,7 +1,7 @@
 <view class='main'>
     <scroll-view class='container' scroll-y="{{true}}">
 
-        New Page
+        New PageNew PageNew PageNew PageNew PageNew PageNew PageNew PageNew PageNew Page
         <list>
         <view slot="header">列表头部</view>
         <block a:for="{{items}}">
@@ -17,23 +17,33 @@
         <view slot="footer">列表尾部</view>
         </list>
 
-        <button type="primary" onTap='pickPerson'>选人</button>
+        <button type="primary" onTap='pickWork'>跳转</button>
+
+        <view class="page-section">
+            <view class="form-row">
+                <view class="form-row-label">最大长度</view>
+                <view class="form-row-content">
+                    最大长度最大长度最大长度最大长度最大长度最大长度最大长度最大长度最大长度
+                    <!-- <input class="input" maxlength="10" placeholder="maxlength 10" /> -->
+                </view>
+            </view>
+        </view>
 
         <button type="primary" onTap='pickPerson'>选人</button>
         <button type="primary" onTap='pickPerson'>选人</button>
         <button type="primary" onTap='pickPerson'>选人</button>
-        <button type="primary" onTap='pickPerson'>选人</button>
-        <button type="primary" onTap='pickPerson'>选人</button>
-        <button type="primary" onTap='pickPerson'>选人</button>
-        <button type="primary" onTap='pickPerson'>选人</button>
-        <button type="primary" onTap='pickPerson'>选人</button>
-        <button type="primary" onTap='pickPerson'>选人</button>
+
+        <dd-charts
+            canvasId="ddchart-canvas-2"
+            onDraw="onDraw"
+        />
+        
 
         <steps 
             activeIndex="{{activeIndex}}"
             items="{{steps}}" 
             direction="vertical"
-            ></steps>
+        ></steps>
 
     </scroll-view>
    

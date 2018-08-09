@@ -5,7 +5,7 @@
 }
 .container{
     flex: 1;
-    background-color: #777;
+    background-color: #ddd;
 }
 .bottom-bar{
     flex-direction: row;
@@ -15,4 +15,33 @@
     border-width: 0.5px;
     border-style: solid;
     border-color: #ccc;
+}
+
+
+.form-row {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 30rpx;
+  min-height: 88rpx;
+  align-items: center;
+}
+
+.form-row-label {
+  width: 180rpx;
+  font-size: 34rpx;
+  margin-right: 10rpx;
+  text-align: left;
+  color: #000;
+}
+
+.form-row-content {
+  flex: 1;
+  font-size: 34rpx;
+  /* display: flex; */
+}
+
+.form-line {
+  height: 1px;
+  background-color: #ddd;
+  margin-left: 30rpx;
 }

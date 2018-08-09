@@ -94,7 +94,8 @@
     "page/biz/pages/grid/index",
     "page/biz/pages/list/index",
     "page/biz/pages/tag/index",
-    "page/test/test"
+    "page/test/test",
+    "page/work/work"
   ],
   "window": {
     "enableWK": "YES",

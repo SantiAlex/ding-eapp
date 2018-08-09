@@ -1,0 +1,8 @@
+<view class="page-section">
+    <view class="form-row">
+      <view class="form-row-label">最大长度</view>
+      <view class="form-row-content">
+        <input class="input" maxlength="10" placeholder="maxlength 10" />
+      </view>
+    </view>
+  </view>
