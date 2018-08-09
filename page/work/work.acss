@@ -1,0 +1,20 @@
+.form-row{
+    height: 100px;
+    border: 1px solid #777;
+}
+.footer{
+    /* position: absolute;
+    bottom: 0px; */
+    flex: 0 0 auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    background-color:#aaa;
+}

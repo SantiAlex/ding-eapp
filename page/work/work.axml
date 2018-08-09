@@ -1,3 +1,14 @@
-<view>
-  New Page
+<view class='main'>
+  <view class="form">
+      <view class="form-row" a:for="{{items}}">
+          <view class="form-row-label">{{item.key}}</view>
+          <view class="form-row-content">
+              {{item.val}}
+              <!-- <input class="input" maxlength="10" placeholder="maxlength 10" /> -->
+          </view>
+      </view>
+    </view>
+    
+  <view class='footer'>123123</view>
+
 </view>

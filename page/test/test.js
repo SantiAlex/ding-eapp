@@ -166,7 +166,7 @@ Page({
   },
   pickWork(){
     dd.navigateTo({
-      url: '/page/work/work'
+      url: '/page/work/work?id=123321'
     })
   },
 
