@@ -1,14 +1,56 @@
 <view class='main'>
-  <view class="form">
-      <view class="form-row" a:for="{{items}}">
-          <view class="form-row-label">{{item.key}}</view>
-          <view class="form-row-content">
-              {{item.val}}
-              <!-- <input class="input" maxlength="10" placeholder="maxlength 10" /> -->
-          </view>
-      </view>
-    </view>
+  <scroll-view class='form' scroll-y="{{true}}">
+        <view class='form-block'>
+            <view class="form-row">
+                <view class="form-row-label">标题</view>
+                <view class="form-row-content">
+                    {{title}}
+                </view>
+            </view>
+            <view class="form-row">
+                <view class="form-row-label">单号</view>
+                <view class="form-row-content">
+                    {{work_id}}
+                </view>
+            </view>
+            <view class="form-row">
+                <view class="form-row-label">受理时间</view>
+                <view class="form-row-content">
+                    {{time}}
+                </view>
+            </view>
+        </view>
+        
+
+        工单内容
+        <view class='form-block'>
+            <view class="form-row" a:for="{{items}}">
+                <view class="form-row-label">{{item.key}}</view>
+                <view class="form-row-content">
+                    {{item.val}}
+                    
+                </view>
+            </view>
+        </view>
+
+        流转过程
+         <steps 
+            activeIndex="{{activeIndex}}"
+            items="{{flow}}" 
+            direction="vertical"
+        ></steps>
+        
+    </scroll-view>
     
-  <view class='footer'>123123</view>
+  <view class='footer'>
+        <view a:if="{{!received}}">
+            <button type="primary" onTap='pickPerson' size='mini' class='foot-button'>退回</button>
+            <button type="primary" onTap='receive' size='mini'  class='foot-button'> 接收</button>
+        </view>
+        <view a:else>
+            <button type="primary" onTap='pickPerson' size='mini'  class='foot-button'>转送</button>
+            <button type="primary" onTap='pickPerson' size='mini' class='foot-button'>答复</button>
+        </view>
+  </view>
 
 </view>

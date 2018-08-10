@@ -7,6 +7,7 @@ require('../../node_modules/mini-ddui/es/steps/index');
 require('../../node_modules/mini-ddui/es/list/index');
 require('../../node_modules/mini-ddui/es/list/list-item/index');
 require('../../node_modules/dd-charts/es/f2/index');
+require('../../node_modules/mini-ddui/es/input-item/index');
 require('../../page/component/index');
 require('../../page/component/action-sheet/action-sheet');
 require('../../page/component/button/button');
@@ -102,5 +103,7 @@ require('../../page/biz/pages/grid/index');
 require('../../page/biz/pages/list/index');
 require('../../page/biz/pages/tag/index');
 require('../../page/test/test');
+require('../../page/work/work');
+require('../../page/transfer/transfer');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();

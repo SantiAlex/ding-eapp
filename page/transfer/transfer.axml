@@ -1,0 +1,11 @@
+<view>.
+     <view class="form-row">
+                <view class="form-row-label">转交给:</view>
+                <view class="form-row-content">
+                    {{user}}
+                </view>
+              </view>
+    留言
+    <textarea placeholder="" name="textarea"/>
+    <button form-type="submit" onTap="click"> 提交 </button>
+</view>

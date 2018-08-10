@@ -95,7 +95,8 @@
     "page/biz/pages/list/index",
     "page/biz/pages/tag/index",
     "page/test/test",
-    "page/work/work"
+    "page/work/work",
+    "page/transfer/transfer"
   ],
   "window": {
     "enableWK": "YES",

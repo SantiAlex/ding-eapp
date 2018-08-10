@@ -166,7 +166,7 @@ Page({
   },
   pickWork(){
     dd.navigateTo({
-      url: '/page/work/work?id=123321'
+      url: '/page/work/work?id=5b61357f1d24121bafec7827'
     })
   },
 
@@ -195,10 +195,10 @@ Page({
               departments:[{"id":,"name":"","number":}]//返回已选部门列表，列表中每个对象包含id（部门id）、name（部门名称）、number（部门人数）
           }
           */    
-      },
-      fail:function(err){
-      }
-  })
+        },
+        fail:function(err){
+        }
+    })
 
   },
    

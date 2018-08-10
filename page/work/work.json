@@ -1,5 +1,9 @@
 {
-    "defaultTitle": "工单详情",
-    "usingComponents":{
-    }
+  "defaultTitle": "工单详情",
+  "usingComponents":{
+      "steps":"mini-ddui/es/steps/index"
+    
+
+  }
+
 }

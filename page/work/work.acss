@@ -1,11 +1,29 @@
+page{
+    background-color: #eee;
+}
+.form-block{
+    background-color:#fff;
+    margin: 10px 2px;
+}
 .form-row{
-    height: 100px;
-    border: 1px solid #777;
+    /* height: 100px; */
+    border: 0.5px solid #ddd;
+    margin: 1px 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.form-row-label{
+    color:#999;
 }
 .footer{
-    /* position: absolute;
-    bottom: 0px; */
-    flex: 0 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 16px; */
+    /*border: 1px solid #ccc;*/
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #ccc;
 }
 .main{
     display: flex;
@@ -13,8 +31,9 @@
     height: 100vh;
 }
 .form{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-    background-color:#aaa;
+    flex:1;
+}
+.foot-button{
+    width: 300rpx;
+    margin: 10rpx 35rpx;
 }

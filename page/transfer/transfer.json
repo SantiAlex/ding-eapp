@@ -1,0 +1,6 @@
+{
+    "defaultTitle":"转送",
+    "usingComponents":{
+        "input-item":"mini-ddui/es/input-item/index"
+    }
+}
