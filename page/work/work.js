@@ -130,6 +130,7 @@ Page({
   },
 
   receive(){
+    
      this.setData({
       received: true
     })

@@ -258,7 +258,13 @@ Page({
         ddChart.area().position('date*value').color('city').adjust('stack');
         ddChart.line().position('date*value').color('city').adjust('stack');
         ddChart.render()
-    }
+    },
 
+  touch(e){
+    console.log(e)
+  },
+  move(e){
+    console.log(e)
+  }
 
 });
